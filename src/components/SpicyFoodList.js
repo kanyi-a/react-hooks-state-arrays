@@ -7,7 +7,7 @@ function SpicyFoodList() {
 
   function handleAddFood() {
     const newFood = getNewSpicyFood();
-    const newFoodArray = [...foods, newFood];
+    const newFoodArray = [...foods, newFood];//spread operator
     setFoods(newFoodArray);
   }
 
